@@ -8,7 +8,7 @@
 classname = "F5 Read The Docs"
 
 # OPTIONAL: The URL to the GitHub Repository for this class
-github_url = "https://github.com/tkam8/f5bigiq-setupguide"
+github_url = "https://github.com/magicalyak/f5-labguide"
 
 git_branch_name = 'master'
 
