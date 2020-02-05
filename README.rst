@@ -5,12 +5,12 @@ Introduction
 ------------
 
 This repo contains a template that should be used when creating lab
-documentation for F5's Agility Labs.
+documentation for F5's Labs.
 
 Setup
 -----
 
-#. Download or ``git clone`` the f5-agility-lab-template
+#. Download or ``git clone`` the f5-labguide
 #. Download and install Docker CE (https://docs.docker.com/engine/installation/)
 #. Build the sample docs ``./containthedocs-build.sh``. The first time you build
    a container (~1G in size) will be downloaded from Docker Hub.
@@ -66,4 +66,7 @@ The repo includes build scripts for common operations:
 - ``containthedocs-pdf.sh``: Build PDF docs using ``make -C docs latexpdf`` to
   ``docs/_build/latex``
 
+Credits
+-------
 
+This repo was copied from tkam8 and 0xHiteshPatel's repos
